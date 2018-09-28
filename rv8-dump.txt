@@ -1,0 +1,27 @@
+
+---[ Section Headers ]-----------------------------------------------------------------------------------------------------
+
+Shdr Name                 Type         Flags                Addr               Offset     Size       Align  Ents Link Info
+[ 0]                      NULL                              0x0                0x0        0x0        0x0       0    0    0
+[ 1] vector               PROGBITS     +ALLOC+EXEC          0x1000             0x74       0x41c      0x4       0    0    0
+[ 2] reset                PROGBITS     +ALLOC+EXEC          0x80000000         0x490      0x4        0x4       0    0    0
+[ 3] exceptions           PROGBITS     +ALLOC+EXEC          0x80000004         0x494      0x27c      0x4       0    0    0
+[ 4] text                 PROGBITS     +WRITE+ALLOC+EXEC    0x80000280         0x710      0x35bc     0x4       0    0    0
+[ 5] devconfig            PROGBITS     +WRITE+ALLOC         0x8000383c         0x3ccc     0x24       0x4       0    0    0
+[ 6] rodata               PROGBITS     +ALLOC               0x80003860         0x3cf0     0x994      0x4       0    0    0
+[ 7] datas                PROGBITS     +WRITE+ALLOC         0x800041f4         0x4684     0x1c       0x4       0    0    0
+[ 8] initlevel            PROGBITS     +WRITE+ALLOC         0x80004210         0x46a0     0x24       0x4       0    0    0
+[ 9] bss                  NOBITS       +WRITE+ALLOC         0x80004238         0x46c4     0x470      0x8       0    0    0
+[10] noinit               NOBITS       +WRITE+ALLOC         0x800046b0         0x46c4     0x2000     0x10      0    0    0
+[11] .debug_info          PROGBITS                          0x0                0x46c4     0x17378    0x1       0    0    0
+[12] .debug_abbrev        PROGBITS                          0x0                0x1ba3c    0x4b39     0x1       0    0    0
+[13] .debug_aranges       PROGBITS                          0x0                0x20580    0x8f8      0x10      0    0    0
+[14] .debug_line          PROGBITS                          0x0                0x20e78    0x948f     0x1       0    0    0
+[15] .debug_str           PROGBITS     +MERGE+STRINGS       0x0                0x2a307    0x2a25     0x1       1    0    0
+[16] .comment             PROGBITS     +MERGE+STRINGS       0x0                0x2cd2c    0x11       0x1       1    0    0
+[17] .debug_frame         PROGBITS                          0x0                0x2cd40    0x1c84     0x4       0    0    0
+[18] .debug_loc           PROGBITS                          0x0                0x2e9c4    0x67ab     0x1       0    0    0
+[19] .debug_ranges        PROGBITS                          0x0                0x35170    0x14f0     0x10      0    0    0
+[20] .symtab              SYMTAB                            0x0                0x36660    0x1a50     0x4      16   21  106
+[21] .strtab              STRTAB                            0x0                0x380b0    0x1e67     0x1       0    0    0
+[22] .shstrtab            STRTAB                            0x0                0x39f17    0xd3       0x1       0    0    0
